@@ -1,0 +1,43 @@
+Batch Size: 100
+Epochs: 200
+Patience: 10
+
+G learning rate
+1e-3 val_rmse: 0.027342653
+1e-4 val_rmse: 0.044353995
+5e-4 val_rmse: 0.025665076 # select
+8e-4 val_rmse: 0.029201666
+
+D learning rate
+1e-5 val_rmse: 0.025665076
+1e-4 val_rmse: 0.074798055
+1e-6 val_rmse: 0.02557324 # select
+5e-6 val_rmse: 0.02654326
+
+Perceptual loss
+vgg16 val_rmse: 0.026201898 # select
+vgg19 val_rmse: 0.02849748
+
+Warmup epoch
+0 val_rmse: 0.026201898 # select
+3 val_rmse: 0.026328778
+
+kernel size
+3 # select
+
+UNet best val_rmse: 0.02568888 # select
+
+MBConvUNet
+kernel size
+3 val_rmse: 0.04699829
+5 val_rmse: 0.029330129 # select
+
+expand ratio
+2 val_rmse: 0.029330129
+4 val_rmse: 0.026552087 # select
+
+squeeze ratio
+2 val_rmse: 0.026552087 # select
+4 val_rmse: 0.026648387
+
+MBConvUNet best val_rmse: 0.026552087 
