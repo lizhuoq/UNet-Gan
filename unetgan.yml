@@ -1,4 +1,4 @@
-name: climsim
+name: unetgan
 channels:
   - pytorch
   - nvidia
@@ -293,4 +293,4 @@ dependencies:
     - triton==2.2.0
     - webencodings==0.5.1
     - xlsxwriter==3.2.0
-prefix: /data/home/scv7343/.conda/envs/climsim
+prefix: /data/home/scv7343/.conda/envs/unetgan
